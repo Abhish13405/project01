@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+
+
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    background-image: url(imeage2.jpg.jpg);
+   
+
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none; /*for no dot line here*/
+
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 76px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    transform: 0s;
+}
+nav ul li a:hover{
+    transition: 1s;
+    border-radius: 10%;
+    background-color: aqua;
+}
+main {
+    padding: 50px 0;
+    text-align: center;
+   
+}
+.login-container {
+    background:#ccc;
+    padding: 40px;
+    border-radius: 8px;
+    display: inline-block;
+    border:solid black;
+}h2 {
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+input{
+     background-color: whitesmoke;
+    color: #fff;
+    cursor: pointer;
+    border: solid black;
+    transform: scale(1);
+}
